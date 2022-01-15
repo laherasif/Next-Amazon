@@ -1,0 +1,50 @@
+.Banner_Wrapper{
+    height: calc(100% - 100px);
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    bottom: 0;
+    /* top: 70px; */
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    border: 1pt solid;
+    padding: 0;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+.carousel-control-next{
+    height: 240px;
+}
+
+.carousel-control-prev{
+    height: 240px;
+}
+
+.carousel-control-next:focus{
+    border: 1pt solid black;
+    
+
+}
+
+.carousel-control-prev:focus{
+    border: 1pt solid black;
+    
+
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}

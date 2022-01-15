@@ -1,0 +1,106 @@
+.checkoutWrapper{
+    background-color: white;
+
+}
+
+.check_heading{
+    padding-top: 20px;
+    
+}
+
+.shipping_address{
+    border: 1pt solid lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.order_review{
+    border: 1pt solid lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.orderlist{
+    list-style: none;
+    padding: 0px;
+}
+
+.orderItems{
+    border-bottom: 1pt solid lightgray;
+    display: flex;
+    flex-direction: row
+
+}
+
+.order_img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain
+}
+
+.product_name{
+    font-size: 14px;
+    width: 55%;
+}
+.qunty_price{
+    display: flex;
+    
+}
+
+.total_price_singleP{
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 18px
+}
+
+.subtotal_price{
+    text-align: right;
+    font-size: 16px;
+}
+
+.subtotal_show{
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.order_place{
+    border: 1pt solid lightgray;
+    padding: 20px;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+
+}
+.cash_on_del{
+    width: 50%;
+    height: 40px;
+    background: #FFD814;
+    border: 1pt solid #FCD200;
+    border-radius: 5px;
+}
+
+
+.cash_on_del:hover{
+    background-color: rgb(243, 204, 9)
+
+}
+
+
+.paypal{
+    width: 50%;
+    margin-left: 1px;
+    margin-top: 10px;
+    height: 40px;
+    background-color: #FFA41C;
+    border: 1pt solid #FFA41C;
+    border-radius: 5px;
+}
+
+.paypal:hover{
+    background-color: rgb(250, 154, 9);
+
+}

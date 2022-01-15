@@ -1,0 +1,40 @@
+.Wrapper{
+    background-color: #232F3E;
+    padding-top: 4px;
+    color: white;
+    height: 40px;
+}
+.smallHeader_Wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+}
+.listItems {
+    margin-right: 8px;
+    padding: 2px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.listItems:hover{
+    
+    border: 1pt solid white
+}
+
+.bsList{
+    width: 22px;
+    height: 22px;
+}
+
+.deals_list{
+ list-style: none;
+}

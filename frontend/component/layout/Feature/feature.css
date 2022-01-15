@@ -1,0 +1,26 @@
+
+.card{
+    width: 100%;
+    height: 100%
+}
+
+.product_wrapper{
+    display: flex;
+    margin-top: 10px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column
+}
+
+.product img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+.card-link{
+    font-size: 12px;
+    text-decoration: none
+    
+}
