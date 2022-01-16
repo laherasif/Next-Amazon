@@ -2,6 +2,7 @@
 .navbar{
   color: white;
   height: 60px;
+  background-color: black;
 }
 .logo_amazon{
   display: flex;
@@ -12,15 +13,13 @@
 
 
 .amazon{
-  background-image: url(../../images/login-logo.png);
+  background-image: url(/images/login-logo.png);
   background-position: -5px -130px;
   height: 31px;
   width: 103px;
   margin-left: 10px;
 }
-.logo_img:hover{
-  border: 1pt solid white;
-}
+
 
 .locationWarpper{
   display: flex;

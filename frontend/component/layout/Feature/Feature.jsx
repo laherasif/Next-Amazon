@@ -1,6 +1,6 @@
 import styles from '../../../styles/feature.module.css'
 import { Link } from 'next/link'
-export default function Feature() {
+const Feature = () => {
     return (
         <>
             <div className="Feature_Wrapper">
@@ -44,3 +44,4 @@ export default function Feature() {
         </>
     )
 }
+export default Feature

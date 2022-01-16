@@ -7,17 +7,17 @@ const Header = () => {
   return (
     <>
 
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className={styles.navbar}>
         <div className="container-fluid">
-          <div className="logo_amazon">
+          <div className={styles.logo_amazon}>
             {/* <img src="/images/newlogo.png" className="logo_img" alt="logo" /> */}
-              <div className="amazon"></div>
-            <div className="locationWarpper ">
+              <div className={styles.amazon}></div>
+            <div className={styles.locationWarpper}>
               <div className="location">
                 <HiOutlineLocationMarker />
               </div>
-              <div className="texts">
-                <div className="text">Delivery to </div>
+              <div className={styles.texts}>
+                <div className={styles.text}>Delivery to </div>
                 <div className="desc">Pakistan </div>
               </div>
             </div>
@@ -32,7 +32,7 @@ const Header = () => {
               <option>All</option>
             </select>
             <input
-              type="text"
+              type={styles.text}
               className="form-control input_form"
               aria-label="Amount (to the nearest dollar)"
             />
@@ -40,27 +40,27 @@ const Header = () => {
             <BsSearch/>
             </button>
           </div>
-          <div className="locationWarpper">
+          <div className={styles.locationWarpper}>
             <img src="images/pk.png" className="country_flag" alt="country" />
             <BsFillCaretDownFill className="flag_arrow_left"/>
 
           </div>
 
-          <div className="locationWarpper">
-            <div className="texts">
-              <div className="text">Hello,Sign in</div> 
+          <div className={styles.locationWarpper}>
+            <div className={styles.texts}>
+              <div className={styles.text}>Hello,Sign in</div> 
               <div className="sign_desc" >Accounts & Lists <BsFillCaretDownFill /> </div>
             </div>
            
           </div>
-          <div className="locationWarpper">
+          <div className={styles.locationWarpper}>
           
-            <div className="texts">
-              <div className="text">Returns </div>
+            <div className={styles.texts}>
+              <div className={styles.text}>Returns </div>
               <div className="return_desc">& Orders </div>
             </div>
           </div>
-          <div className="locationWarpper">
+          <div className={styles.locationWarpper}>
               <RiShoppingCartLine className="shooping_Cart" />
               <div className="cart_desc">Cart </div>
           </div>
