@@ -48,7 +48,9 @@
   font-weight: 500;
 }
 
-.input-group{
+.group{
+  display: flex;
+  width: 70%;
   height: 45px;
   cursor: pointer;
 }

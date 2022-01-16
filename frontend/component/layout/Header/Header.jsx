@@ -24,7 +24,7 @@ const Header = () => {
 
           </div>
 
-          <div className="input-group">
+          <div className={styles.group}>
             <select className="input-group-text">
               <option>All </option>
               <option>All is well dont mind</option>
@@ -32,7 +32,7 @@ const Header = () => {
               <option>All</option>
             </select>
             <input
-              type={styles.text}
+              type="text"
               className="form-control input_form"
               aria-label="Amount (to the nearest dollar)"
             />
@@ -41,7 +41,7 @@ const Header = () => {
             </button>
           </div>
           <div className={styles.locationWarpper}>
-            <img src="images/pk.png" className="country_flag" alt="country" />
+            <img src="images/pk.png" className={styles.country_flag} alt="country" />
             <BsFillCaretDownFill className="flag_arrow_left"/>
 
           </div>
@@ -61,8 +61,8 @@ const Header = () => {
             </div>
           </div>
           <div className={styles.locationWarpper}>
-              <RiShoppingCartLine className="shooping_Cart" />
-              <div className="cart_desc">Cart </div>
+              <RiShoppingCartLine className={styles.shooping_Cart}/>
+              <div className={styles.cart_desc}>Cart </div>
           </div>
 
 
