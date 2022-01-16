@@ -1,5 +1,6 @@
 import styles from '../../../styles/feature.module.css'
 import { Link } from 'next/link'
+import Image from 'next/image'
 const Feature = () => {
     return (
         <>
@@ -9,31 +10,31 @@ const Feature = () => {
                         <div className="card-body">
                             <h5 className="card-title">Gamming accessories</h5>
                             <div className="card-text">
-                                <div className="product_wrapper">
-                                    <div className="product">
-                                        <img src="/images/headphone.jpg" alt="product_images" className="product_img" />
+                                <div className={styles.product_wrapper}>
+                                    <div className={styles.product}>
+                                        <Image src="/images/headphone.jpg" width={200} height={40} alt="product_images" className="product_img" />
                                         <span className="product_name">Headsets</span>
                                     </div>
                                     <div className="product">
-                                        <img src="/images/keyboard.jpg" alt="product_images" className="product_img" />
+                                        <Image src="/images/keyboard.jpg" width={200} height={40} alt="product_images" className="product_img" />
                                         <span className="product_name">Headsets</span>
                                     </div>
                                 </div>
                                 <div className="product_wrapper mt-3">
                                     <div className="product">
-                                        <img src="/images/mouse.jpg" alt="product_images" className="product_img" />
+                                        <Image src="/images/mouse.jpg" width={200} height={40} alt="product_images" className="product_img" />
                                         <span className="product_name">Headsets</span>
                                     </div>
                                     <div className="product">
-                                        <img src="/images/chair.jpg" alt="product_images" className="product_img" />
+                                        <Image src="/images/chair.jpg"  width={200} height={40}alt="product_images" className="product_img" />
                                         <span className="product_name">Headsets</span>
                                     </div>
                                 </div>
 
                             </div>
-                            <Link to="/" className="card-link">
+                            {/* <Link href="/" className="card-link">
                                Shop now
-    </Link>
+    </Link> */}
 
                         </div>
                     </div>

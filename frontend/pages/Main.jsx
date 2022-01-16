@@ -1,7 +1,7 @@
 import styles from '../styles/home.module.css'
 import Banner from '../component/layout/Banner/Banner'
-// import Feature from '../component/layout/Feature/Feature'
 import Catagory from '../component/layout/Catagory/Catagory';
+import Feature from '../component/layout/Feature/Feature';
 export default function Main() {
     return (
         <>
@@ -11,11 +11,11 @@ export default function Main() {
                     <Banner />
 
                 </div>
-                <div className="feature">
+                <div className={styles.feature}>
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-md-3">
-                                {/* <Feature /> */}
+                                <Feature/>
                             </div>
                             <div className="col-md-3">
                                 {/* <Feature /> */}
