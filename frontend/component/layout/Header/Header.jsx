@@ -1,4 +1,4 @@
-import "./Header.css";
+import styles from '../../../styles/Header.module.css';
 import { BsSearch , BsFillCaretDownFill } from "react-icons/bs";
 import { HiOutlineLocationMarker, } from "react-icons/hi";
 import { RiShoppingCartLine } from "react-icons/ri";
