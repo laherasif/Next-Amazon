@@ -1,5 +1,5 @@
-import styles from '../../../styles/feature.css'
-import { Link } from 'react-router-dom'
+import styles from '../../../styles/feature.module.css'
+import { Link } from 'next/link'
 export default function Feature() {
     return (
         <>

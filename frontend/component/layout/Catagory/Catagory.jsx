@@ -1,4 +1,4 @@
-import styles from '../../../styles/Catagory.css'
+import styles from '../../../styles/Catagory.module.css'
 
 
 const images = [
