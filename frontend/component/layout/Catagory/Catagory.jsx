@@ -18,19 +18,20 @@ export default function Catagory() {
     return (
         <>
                 {/* <div className="container-fluid"> */}
-            <div className="catagory-wrapper">
-                    <div className="catagorys">
-                        <p>Popular products in Apparel international</p>
+            <div className={styles.catagory_wrapper}>
+                    <div className={styles.catagorys}>
+                        <p className={styles.para}>Popular products in Apparel international</p>
                         <div className={styles.catagory_imgs}>
-                            <Image src="/images/baby-1.jpg" width="200px" height="100%"  objectFit="contain"  alt="babay" />
-                            <Image src="/images/baby-1.jpg" width="200px" height="100%"  objectFit="contain"  alt="babay" />
-                            <Image src="/images/baby-1.jpg" width="200px" height="100%"  objectFit="contain"  alt="babay" />
-                            <Image src="/images/baby-1.jpg" width="200px" height="100%"  objectFit="contain"  alt="babay" />
-                            <Image src="/images/baby-1.jpg" width="200px" height="100%"  objectFit="contain"  alt="babay" />
-                            <Image src="/images/baby-1.jpg" width="200px" height="100%"  objectFit="contain"  alt="babay" />
-                            <Image src="/images/baby-1.jpg" width="200px" height="100%"  objectFit="contain"  alt="babay" />
-                            <Image src="/images/baby-1.jpg" width="200px" height="100%"  objectFit="contain"  alt="babay" />
-                            <Image src="/images/baby-1.jpg" width="200px" height="100%"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
+                            
                         </div>
                     </div>
                 {/* </div> */}

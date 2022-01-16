@@ -1,5 +1,5 @@
 
-.catagory-wrapper{
+.catagory_wrapper{
     width: 100%
 }
 .catagorys{
@@ -7,7 +7,7 @@
     
 }
 
-.catagorys p{
+.para{
     font-size: 20px;
     font-weight: 500;
     padding: 15px 0px 10px 10px;
@@ -16,9 +16,8 @@
 .catagory_imgs{
     display: flex;
     flex-direction: row;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     height: 250px;
-    width: 100%;
     margin-top: -15px;
 }
 .catagory-imgs img{
