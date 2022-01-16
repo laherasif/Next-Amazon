@@ -25,6 +25,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    border: none;
     background: transparent
 
 }
@@ -33,6 +34,7 @@
     height: 240px;
     position: absolute;
     top: 0;
+    border: none;
     background: transparent
 }
 
