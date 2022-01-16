@@ -12,29 +12,29 @@ const Feature = () => {
                             <div className="card-text">
                                 <div className={styles.product_wrapper}>
                                     <div className={styles.product}>
-                                        <Image src="/images/headphone.jpg" width={200} height={40} alt="product_images" className="product_img" />
+                                        <Image src="/images/headphone.jpg" width={200} height={150} alt="product_images" className="product_img" />
                                         <span className="product_name">Headsets</span>
                                     </div>
-                                    <div className="product">
-                                        <Image src="/images/keyboard.jpg" width={200} height={40} alt="product_images" className="product_img" />
+                                    <div className={styles.product}>
+                                        <Image src="/images/keyboard.jpg" width={200} height={150} alt="product_images" className="product_img" />
                                         <span className="product_name">Headsets</span>
                                     </div>
                                 </div>
-                                <div className="product_wrapper mt-3">
-                                    <div className="product">
-                                        <Image src="/images/mouse.jpg" width={200} height={40} alt="product_images" className="product_img" />
+                                <div className={`${styles.product_wrapper} mt-3`}>
+                                    <div className={styles.product}>
+                                        <Image src="/images/mouse.jpg" width={200} height={200} alt="product_images" className="product_img" />
                                         <span className="product_name">Headsets</span>
                                     </div>
-                                    <div className="product">
-                                        <Image src="/images/chair.jpg"  width={200} height={40}alt="product_images" className="product_img" />
+                                    <div className={styles.product}>
+                                        <Image src="/images/chair.jpg"  width={200} height={200}alt="product_images" className="product_img" />
                                         <span className="product_name">Headsets</span>
                                     </div>
                                 </div>
 
                             </div>
-                            {/* <Link href="/" className="card-link">
-                               Shop now
-    </Link> */}
+                            <Link href="/">
+          <a>Shop now</a>
+        </Link>
 
                         </div>
                     </div>

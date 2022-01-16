@@ -5,7 +5,7 @@ import Feature from '../component/layout/Feature/Feature';
 export default function Main() {
     return (
         <>
-            <div className="Home_Wrapper" >
+            <div className={styles.Home_Wrapper}>
 
                 <div className="banner">
                     <Banner />
