@@ -2,7 +2,7 @@ import './home.css'
 import Banner from '../../layout/Banner/Banner'
 import Feature from '../../layout/Feature/Feature'
 import Catagory from '../../layout/Catagory/Catagory';
-export default function Home() {
+export default function Main() {
     return (
         <>
             <div className="Home_Wrapper" >
