@@ -2,7 +2,10 @@
 .navbar{
   color: white;
   height: 60px;
-  background-color: black;
+}
+
+.Header_Wrapper{
+  /* display: flex */
 }
 .logo_amazon{
   display: flex;
@@ -48,7 +51,7 @@
   font-weight: 500;
 }
 
-.group{
+.input_group{
   display: flex;
   width: 70%;
   height: 45px;
@@ -70,7 +73,7 @@
   outline-color: #F3A847
 }
 
-.input-group-search {
+.inputSearch {
   display: flex;
   align-items: center;
   padding: 0.375rem 0.75rem;

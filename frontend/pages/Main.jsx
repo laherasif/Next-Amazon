@@ -1,6 +1,6 @@
 import styles from '../styles/home.module.css'
 import Banner from '../component/layout/Banner/Banner'
-import Feature from '../component/layout/Feature/Feature'
+// import Feature from '../component/layout/Feature/Feature'
 import Catagory from '../component/layout/Catagory/Catagory';
 export default function Main() {
     return (
@@ -15,16 +15,16 @@ export default function Main() {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-md-3">
-                                <Feature />
+                                {/* <Feature /> */}
                             </div>
                             <div className="col-md-3">
-                                <Feature />
+                                {/* <Feature /> */}
                             </div>
                             <div className="col-md-3">
-                                <Feature />
+                                {/* <Feature /> */}
                             </div>
                             <div className="col-md-3">
-                                <Feature />
+                                {/* <Feature /> */}
                             </div>
                         </div>
                         <div style={{ margin: '25px' }}>
@@ -38,16 +38,16 @@ export default function Main() {
 
                         <div className="row mt-3">
                             <div className="col-md-3">
-                                <Feature />
+                                {/* <Feature /> */}
                             </div>
                             <div className="col-md-3">
-                                <Feature />
+                                {/* <Feature /> */}
                             </div>
                             <div className="col-md-3">
-                                <Feature />
+                                {/* <Feature /> */}
                             </div>
                             <div className="col-md-3">
-                                <Feature />
+                                {/* <Feature /> */}
                             </div>
                         </div>
 
@@ -70,16 +70,16 @@ export default function Main() {
 
                         <div className="row mt-3">
                             <div className="col-md-3">
-                                <Feature />
+                                {/* <Feature /> */}
                             </div>
                             <div className="col-md-3">
-                                <Feature />
+                                {/* <Feature /> */}
                             </div>
                             <div className="col-md-3">
-                                <Feature />
+                                {/* <Feature /> */}
                             </div>
                             <div className="col-md-3">
-                                <Feature />
+                                {/* <Feature /> */}
                             </div>
                         </div>
                         

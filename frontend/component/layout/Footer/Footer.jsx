@@ -9,63 +9,63 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-3">
               <div className="footer_list">
-                <ul className="lists">
+                <ul className={styles.lists}>
                   <p>Get to Know Us </p>
-                  <li className="listItem">Genu </li>
-                  <li className="listItem">Genu </li>
-                  <li className="listItem">Genu </li>
-                  <li className="listItem">Genu </li>
+                  <li className={styles.listItem}>Genu </li>
+                  <li className={styles.listItem}>Genu </li>
+                  <li className={styles.listItem}>Genu </li>
+                  <li className={styles.listItem}>Genu </li>
                 </ul>
               </div>
             </div>
             <div className="col-md-3">
               <div className="footer_list">
-                <ul className="lists">
+                <ul className={styles.lists}>
                   <p>Make Money with Us </p>
-                  <li className="listItem">Genu </li>
-                  <li className="listItem">Genu </li>
-                  <li className="listItem">Genu </li>
-                  <li className="listItem">Genu </li>
+                  <li className={styles.listItem}>Genu </li>
+                  <li className={styles.listItem}>Genu </li>
+                  <li className={styles.listItem}>Genu </li>
+                  <li className={styles.listItem}>Genu </li>
                 </ul>
               </div>
             </div>
             <div className="col-md-3">
               <div className="footer_list">
-                <ul className="lists">
+                <ul className={styles.lists}>
                   <p>Amazone Payment Products</p>
-                  <li className="listItem">Genu </li>
-                  <li className="listItem">Genu </li>
-                  <li className="listItem">Genu </li>
-                  <li className="listItem">Genu </li>
+                  <li className={styles.listItem}>Genu </li>
+                  <li className={styles.listItem}>Genu </li>
+                  <li className={styles.listItem}>Genu </li>
+                  <li className={styles.listItem}>Genu </li>
                 </ul>
               </div>
             </div>
             <div className="col-md-3">
               <div className="footer_list">
-                <ul className="lists">
+                <ul className={styles.lists}>
                   <p>Let Us Help You </p>
-                  <li className="listItem">Genu </li>
-                  <li className="listItem">Genu </li>
-                  <li className="listItem">Genu </li>
-                  <li className="listItem">Genu </li>
+                  <li className={styles.listItem}>Genu </li>
+                  <li className={styles.listItem}>Genu </li>
+                  <li className={styles.listItem}>Genu </li>
+                  <li className={styles.listItem}>Genu </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <hr className="footer_hr" />
+        <hr />
         <div className="container">
-          <div className="bottom_footer ">
-            <ul className="bottom_list">
-              <li className="bottom_listItems">
+          <div className={styles.bottom_footer}>
+            <ul className={styles.bottom_list}>
+              <li className={styles.bottom_listItems}>
             </li>
-              <li className="bottom_listItem">
+              <li className={styles.bottom_listItem}>
                English
             </li>
-              <li className="bottom_listItem">
+              <li className={styles.bottom_listItem}>
                 $ USD - U.S Dollar
             </li>
-              <li className="bottom_listItem">
+              <li className={styles.bottom_listItem}>
                United State
             </li>
             </ul>
