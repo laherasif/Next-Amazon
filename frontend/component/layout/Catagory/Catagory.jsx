@@ -1,5 +1,5 @@
 import styles from '../../../styles/Catagory.module.css'
-
+import Image from 'next/image'
 
 const images = [
 
@@ -21,16 +21,16 @@ export default function Catagory() {
             <div className="catagory-wrapper">
                     <div className="catagorys">
                         <p>Popular products in Apparel international</p>
-                        <div className="catagory-imgs">
-                            <img src="/images/baby-1.jpg" alt="babay" />
-                            <img src="/images/baby-1.jpg" alt="babay" />
-                            <img src="/images/baby-1.jpg" alt="babay" />
-                            <img src="/images/baby-1.jpg" alt="babay" />
-                            <img src="/images/baby-1.jpg" alt="babay" />
-                            <img src="/images/baby-1.jpg" alt="babay" />
-                            <img src="/images/baby-1.jpg" alt="babay" />
-                            <img src="/images/baby-1.jpg" alt="babay" />
-                            <img src="/images/baby-1.jpg" alt="babay" />
+                        <div className={styles.catagory_imgs}>
+                            <Image src="/images/baby-1.jpg" width="170px" height="100%"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width="170px" height="100%"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width="170px" height="100%"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width="170px" height="100%"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width="170px" height="100%"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width="170px" height="100%"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width="170px" height="100%"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width="170px" height="100%"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width="170px" height="100%"  objectFit="contain"  alt="babay" />
                         </div>
                     </div>
                 {/* </div> */}
