@@ -1,9 +1,9 @@
 import styles from '../../../styles/banner.module.css'
-
+import Image from 'next/image'
 export default function Banner() {
     return (
         <>
-            <div className="Banner_Wrapper">
+            <div className={styles.Banner_Wrapper}>
                 <div
                     id="carouselExampleInterval"
                     className="carousel slide"
@@ -11,22 +11,22 @@ export default function Banner() {
                 >
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval={10000}>
-                            <img src="images/slider-1.jpg" className="d-block w-100" alt="slider-1" />
+                            <Image src="/images/slider-1.jpg"  width="100%" height="40%" layout="responsive"  alt="slider-1" />
                         </div>
                         <div className="carousel-item" data-bs-interval={2000}>
-                            <img src="images/slider-2.jpg" className="d-block w-100" alt="slider-2" />
+                            <Image src="/images/slider-2.jpg"  width="100%" height="40%" layout="responsive"  alt="slider-2" />
                         </div>
                         <div className="carousel-item">
-                            <img src="images/slider-3.jpg" className="d-block w-100" alt="slider-2" />
+                            <Image src="/images/slider-3.jpg"  width="100%" height="40%" layout="responsive"  alt="slider-2" />
 
                         </div>
                         <div className="carousel-item">
-                            <img src="images/slider-4.jpg" className="d-block w-100" alt="slider-2" />
+                            <Image src="/images/slider-4.jpg"  width="100%" height="40%" layout="responsive"  alt="slider-2" />
 
                         </div>
                     </div>
                     <button
-                        className="carousel-control-prev"
+                        className={styles.carousel_control_prev}
                         type="button"
                         data-bs-target="#carouselExampleInterval"
                         data-bs-slide="prev"
@@ -35,7 +35,7 @@ export default function Banner() {
                         <span className="visually-hidden">Previous</span>
                     </button>
                     <button
-                        className="carousel-control-next"
+                        className={styles.carousel_control_next}
                         type="button"
                         data-bs-target="#carouselExampleInterval"
                         data-bs-slide="next"

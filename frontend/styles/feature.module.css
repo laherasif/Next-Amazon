@@ -1,5 +1,5 @@
 
-.card{
+.card_wrapper{
     width: 100%;
     height: 100%
 }
@@ -19,8 +19,13 @@
     height: 100%;
     object-fit: cover
 }
-.card-link{
+.card_link{
     font-size: 12px;
     text-decoration: none
     
+}
+
+.product_name{
+    font-size: 14px;
+    font-weight: 500;
 }

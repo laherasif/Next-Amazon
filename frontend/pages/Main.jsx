@@ -18,13 +18,13 @@ export default function Main() {
                                 <Feature/>
                             </div>
                             <div className="col-md-3">
-                                {/* <Feature /> */}
+                                <Feature />
                             </div>
                             <div className="col-md-3">
-                                {/* <Feature /> */}
+                                <Feature />
                             </div>
                             <div className="col-md-3">
-                                {/* <Feature /> */}
+                                <Feature />
                             </div>
                         </div>
                         <div style={{ margin: '25px' }}>
@@ -38,16 +38,16 @@ export default function Main() {
 
                         <div className="row mt-3">
                             <div className="col-md-3">
-                                {/* <Feature /> */}
+                                <Feature />
                             </div>
                             <div className="col-md-3">
-                                {/* <Feature /> */}
+                                <Feature />
                             </div>
                             <div className="col-md-3">
-                                {/* <Feature /> */}
+                                <Feature />
                             </div>
                             <div className="col-md-3">
-                                {/* <Feature /> */}
+                                <Feature />
                             </div>
                         </div>
 

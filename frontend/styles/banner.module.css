@@ -20,21 +20,29 @@
     transition: opacity .15s ease;
 }
 
-.carousel-control-next{
+.carousel_control_next{
     height: 240px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent
+
 }
 
-.carousel-control-prev{
+.carousel_control_prev{
     height: 240px;
+    position: absolute;
+    top: 0;
+    background: transparent
 }
 
-.carousel-control-next:focus{
+.carousel_control_next:focus{
     border: 1pt solid black;
     
 
 }
 
-.carousel-control-prev:focus{
+.carousel_control_prev:focus{
     border: 1pt solid black;
     
 
