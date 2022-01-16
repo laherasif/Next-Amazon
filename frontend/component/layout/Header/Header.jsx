@@ -2,7 +2,7 @@ import styles from '../../../styles/Header.module.css';
 import { BsSearch, BsFillCaretDownFill } from "react-icons/bs";
 import { HiOutlineLocationMarker, } from "react-icons/hi";
 import { RiShoppingCartLine } from "react-icons/ri";
-
+import Link from 'next/link'
 const Header = () => {
   return (
     <>
@@ -26,21 +26,21 @@ const Header = () => {
             </div>
 
             <div className={styles.input_group}>
-            <select className="input-group-text">
-              <option>All </option>
-              <option>All is well dont mind</option>
-              <option>All</option>
-              <option>All</option>
-            </select>
-            <input
-              type="text"
-              className="form-control input_form"
-              aria-label="Amount (to the nearest dollar)"
-            />
-            <button className={styles.inputSearch}>
-            <BsSearch/>
-            </button>
-          </div>
+              <select className="input-group-text">
+                <option>All </option>
+                <option>All is well dont mind</option>
+                <option>All</option>
+                <option>All</option>
+              </select>
+              <input
+                type="text"
+                className="form-control input_form"
+                aria-label="Amount (to the nearest dollar)"
+              />
+              <button className={styles.inputSearch}>
+                <BsSearch />
+              </button>
+            </div>
             <div className={styles.locationWarpper}>
               <img src="images/pk.png" className={styles.country_flag} alt="country" />
               <BsFillCaretDownFill className="flag_arrow_left" />
@@ -49,8 +49,10 @@ const Header = () => {
 
             <div className={styles.locationWarpper}>
               <div className={styles.texts}>
-                <div className={styles.text}>Hello,Sign in</div>
-                <div className="sign_desc" >Accounts & Lists <BsFillCaretDownFill /> </div>
+                <Link href="/">
+                    <div className={styles.text}>Hello,Sign in</div>
+                </Link>
+                    <div className="sign_desc" >Accounts & Lists <BsFillCaretDownFill /> </div>
               </div>
 
             </div>
