@@ -1,4 +1,4 @@
-import styles  from '../styles/product.module.css'
+import styles  from '../../styles/product.module.css'
 import { BsFillCaretDownFill } from "react-icons/bs";
 
 export default function Products() {
@@ -6,18 +6,18 @@ export default function Products() {
 
     return (
         <>
-            <div className="ProductWrapper">
+            <div className={styles.ProductWrapper}>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-3 col-lg-2">
                             <div className="sidebar_filter">
-                                <div className="filter">
+                                <div className={styles.filter}>
                                     Filters
                                 </div>
                                 <hr />
                                 <div className="filter_list">
-                                    <ul className="Lists">
-                                        <li className="listItemss" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    <ul className={styles.Lists}>
+                                        <li className={styles.listItemss} data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                                             Prime & Delivery
                                             <BsFillCaretDownFill />
 
@@ -52,7 +52,7 @@ export default function Products() {
                         </div>
                         <div className="col-md-9 col-lg-10">
                             <div className="products">
-                                <div className="about_desc">
+                                <div className={styles.about_desc}>
                                     Price and other details may vary base on product size and color
                                 </div>
                                 <div className="products_list">
