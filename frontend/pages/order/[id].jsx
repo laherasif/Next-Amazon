@@ -1,4 +1,4 @@
-import './checkout.css'
+import styles from '../styles/checkout.module.css'
 
 export default function Checkout() {
     return (

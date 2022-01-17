@@ -1,4 +1,4 @@
-import './product.css'
+import styles  from '../styles/product.module.css'
 import { BsFillCaretDownFill } from "react-icons/bs";
 
 export default function Products() {

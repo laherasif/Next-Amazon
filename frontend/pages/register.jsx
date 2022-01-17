@@ -1,5 +1,5 @@
 import styles from  '../styles/signup.module.css'
-
+import Link from 'next/link'
 export default function Register() {
     return (
         <>
@@ -23,22 +23,24 @@ export default function Register() {
                                     <div className="mb-2">
                                         <label className="form-label">Password  </label>
                                         <input type="email" className="form-control" />
-                                        <p className="password_info">password must be at least 6 characters</p>
+                                        <p className={styles.password_info}>password must be at least 6 characters</p>
                                     </div>
                                     <div className="mb-3">
                                         <label className="form-label">Re-enter password </label>
                                         <input type="email" className="form-control" />
                                     </div>
-                                    <button className="btn_register" >countinue</button>
+                                    <button className={styles.btn_register}>countinue</button>
                                 </form>
-                                <div className="agree">
+                                <div className={styles.agree}>
                                     <p>By countinuting , you agree to Amazon's conditions of Use and Privacy Notice. </p>
                                 </div>
 
                                 <hr/>
 
-                                <div className="agree">
-                                    <p>Already have an account? Sign-In </p>
+                                <div className={styles.agree}>
+                                <Link href="/login">
+                                    <p>Already have an account? <span  className={styles.already}>Sign-In</span> </p>
+                                    </Link>
                                 </div>
 
 

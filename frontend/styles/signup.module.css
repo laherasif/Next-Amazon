@@ -82,3 +82,9 @@
     vertical-align: middle;
 
 }
+
+.already{
+    color: darkblue;
+    text-decoration:underline;
+    cursor: pointer;
+}
