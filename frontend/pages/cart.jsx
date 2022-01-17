@@ -1,5 +1,6 @@
 import styles from '../styles/cart.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 export default function Cart() {
     return (
         <>
@@ -51,8 +52,11 @@ export default function Cart() {
                                     <input type="checkbox" />
                                     <span className={styles.contain_gift}>This order contain gift</span>
                                 </div>
+                                <Link href="/order/order"  >
                                 <button  className={styles.prceed_btn}>proceed to checkout</button>
+                                </Link>
                             </div>
+ 
                         </div>
                     </div>
                 </div>

@@ -74,6 +74,7 @@
 
 .proceed_checkout{
     background-color: white;
+    border: 1pt solid lightgray;
     margin-top: 30px;
     padding: 20px;
 }

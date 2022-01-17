@@ -63,7 +63,7 @@ const Header = () => {
                 <div className="return_desc">& Orders </div>
               </div>
             </div>
-            <Link href={`/product/${1}`} passHref>
+            <Link href={`/cart`} passHref>
             <div className={styles.locationWarpper}>
               <RiShoppingCartLine className={styles.shooping_Cart} />
               <div className={styles.cart_desc}>Cart </div>
