@@ -1,5 +1,5 @@
 
-.navbar{
+.navbar_top{
   color: white;
   height: 60px;
 }
@@ -52,22 +52,22 @@
 }
 
 .input_group{
-
+  width: 50%;
   cursor: pointer;
 }
 .input-group:focus{
  outline: 2pt solid #F3A847
 }
 
-.input-group-text{
+.input_text{
   cursor: pointer;
   width: 70px;
 }
-.input-group-text option{
+.input_text option{
   text-align: left
 }
 
-.input-group-text:focus{
+.input_text:focus{
   outline-color: #F3A847
 }
 

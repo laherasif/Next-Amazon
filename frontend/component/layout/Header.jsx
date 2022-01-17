@@ -3,11 +3,12 @@ import { BsSearch, BsFillCaretDownFill } from "react-icons/bs";
 import { HiOutlineLocationMarker, } from "react-icons/hi";
 import { RiShoppingCartLine } from "react-icons/ri";
 import Link from 'next/link'
+import Image from 'next/image'
 const Header = () => {
   return (
     <>
 
-      <nav className={`${styles.navbar} navbar-expand-lg navbar-dark bg-dark`}>
+      <nav className={`${styles.navbar_top} navbar navbar-expand-lg navbar-dark bg-dark`}>
         <div className="container-fluid">
             <div className={styles.logo_amazon}>
               {/* <img src="/images/newlogo.png" className="logo_img" alt="logo" /> */}
@@ -25,7 +26,7 @@ const Header = () => {
             </div>
 
             <div className={`${styles.input_group} input-group`}>
-              <select className="input-group-text">
+              <select className={`${ styles.input_text} input-group-text`}>
                 <option>All </option>
                 <option>All is well dont mind</option>
                 <option>All</option>
@@ -41,7 +42,7 @@ const Header = () => {
               </button>
             </div>
             <div className={styles.locationWarpper}>
-              <img src="images/pk.png" className={styles.country_flag} alt="country" />
+              <Image src="/images/pk.png" width={40} height={30} className={styles.country_flag} alt="country" />
               <BsFillCaretDownFill className="flag_arrow_left" />
 
             </div>
