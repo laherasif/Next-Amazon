@@ -1,6 +1,6 @@
 import styles  from '../../styles/product.module.css'
 import { BsFillCaretDownFill } from "react-icons/bs";
-
+import Image from 'next/image'
 export default function Products() {
     console.log("product page ");
 
@@ -55,50 +55,50 @@ export default function Products() {
                                 <div className={styles.about_desc}>
                                     Price and other details may vary base on product size and color
                                 </div>
-                                <div className="products_list">
+                                <div className={styles.products_list}>
                                     <div className="container">
                                         <div className="row">
                                             <div className="col-md-3">
-                                                <div className="product_data">
-                                                    <img src="/images/chair-1.jpg" className="product_images" alt="product_img" />
-                                                    <p className="feature_brand">Feature from our brand</p>
-                                                    <h3 className="product_desc">Amazon Basics Kids/Youth Gaming Recliner with Headrest and Back Pillow, 3+ Age Group, Black and White</h3>
+                                                <div className={styles.product_data}>
+                                                    <Image src="/images/chair-1.jpg" width="200px" height="200px"   alt="product_img" />
+                                                    <p className={styles.feature_brand}>Feature from our brand</p>
+                                                    <h3 className={styles.product_desc}>Amazon Basics Kids/Youth Gaming Recliner with Headrest and Back Pillow, 3+ Age Group, Black and White</h3>
 
-                                                    <span className="price">$205 </span>
-                                                    <span className="ships">Ships to Pakistan</span>
+                                                    <span className={styles.price}>$205 </span>
+                                                    <span className={styles.ships}>Ships to Pakistan</span>
                                                 </div>
                                                 <hr />
                                             </div>
                                             <div className="col-md-3">
-                                                <div className="product_data">
-                                                    <img src="/images/chair-1.jpg" className="product_images" alt="product_img" />
-                                                    <p className="feature_brand">Feature from our brand</p>
-                                                    <h3 className="product_desc">Amazon Basics Kids/Youth Gaming Recliner with Headrest and Back Pillow, 3+ Age Group, Black and White</h3>
+                                                <div className={styles.product_data}>
+                                                    <Image src="/images/chair-1.jpg" width="200px" height="200px"   alt="product_img" />
+                                                    <p className={styles.feature_brand}>Feature from our brand</p>
+                                                    <h3 className={styles.product_desc}>Amazon Basics Kids/Youth Gaming Recliner with Headrest and Back Pillow, 3+ Age Group, Black and White</h3>
 
-                                                    <span className="price">$205 </span>
-                                                    <span className="ships">Ships to Pakistan</span>
+                                                    <span className={styles.price}>$205 </span>
+                                                    <span className={styles.ships}>Ships to Pakistan</span>
                                                 </div>
                                                 <hr />
                                             </div>
                                             <div className="col-md-3">
-                                                <div className="product_data">
-                                                    <img src="/images/chair-1.jpg" className="product_images" alt="product_img" />
-                                                    <p className="feature_brand">Feature from our brand</p>
-                                                    <h3 className="product_desc">Amazon Basics Kids/Youth Gaming Recliner with Headrest and Back Pillow, 3+ Age Group, Black and White</h3>
+                                                <div className={styles.product_data}>
+                                                    <Image src="/images/chair-1.jpg" width="200px" height="250px"   alt="product_img" />
+                                                    <p className={styles.feature_brand}>Feature from our brand</p>
+                                                    <h3 className={styles.product_desc}>Amazon Basics Kids/Youth Gaming Recliner with Headrest and Back Pillow, 3+ Age Group, Black and White</h3>
 
-                                                    <span className="price">$205 </span>
-                                                    <span className="ships">Ships to Pakistan</span>
+                                                    <span className={styles.price}>$205 </span>
+                                                    <span className={styles.ships}>Ships to Pakistan</span>
                                                 </div>
                                                 <hr />
                                             </div>
                                             <div className="col-md-3">
-                                                <div className="product_data">
-                                                    <img src="/images/chair-1.jpg" className="product_images" alt="product_img" />
-                                                    <p className="feature_brand">Feature from our brand</p>
-                                                    <h3 className="product_desc">Amazon Basics Kids/Youth Gaming Recliner with Headrest and Back Pillow, 3+ Age Group, Black and White</h3>
+                                                <div className={styles.product_data}>
+                                                    <Image src="/images/chair-1.jpg" width="200px" height="200px"   alt="product_img" />
+                                                    <p className={styles.feature_brand}>Feature from our brand</p>
+                                                    <h3 className={styles.product_desc}>Amazon Basics Kids/Youth Gaming Recliner with Headrest and Back Pillow, 3+ Age Group, Black and White</h3>
 
-                                                    <span className="price">$205 </span>
-                                                    <span className="ships">Ships to Pakistan</span>
+                                                    <span className={styles.price}>$205 </span>
+                                                    <span className={styles.ships}>Ships to Pakistan</span>
                                                 </div>
                                                 <hr />
                                             </div>
