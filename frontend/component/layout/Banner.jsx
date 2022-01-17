@@ -1,4 +1,4 @@
-import styles from '../../../styles/banner.module.css'
+import styles from '../../styles/banner.module.css'
 import Image from 'next/image'
 export default function Banner() {
     return (

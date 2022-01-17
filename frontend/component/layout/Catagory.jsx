@@ -1,4 +1,4 @@
-import styles from '../../../styles/Catagory.module.css'
+import styles from '../../styles/Catagory.module.css'
 import Image from 'next/image'
 
 const images = [

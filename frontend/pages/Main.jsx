@@ -1,7 +1,7 @@
 import styles from '../styles/home.module.css'
-import Banner from '../component/layout/Banner/Banner'
-import Catagory from '../component/layout/Catagory/Catagory';
-import Feature from '../component/layout/Feature/Feature';
+import Banner from '../component/layout/Banner'
+import Catagory from '../component/layout/Catagory';
+import Feature from '../component/layout/Feature';
 export default function Main() {
     return (
         <>
