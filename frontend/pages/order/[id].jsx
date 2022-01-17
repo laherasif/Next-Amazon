@@ -1,15 +1,15 @@
 import styles from '../../styles/checkout.module.css'
-
+import Image from 'next/image'
 export default function Checkout() {
     return (
         <>
-            <section className="checkoutWrapper">
+            <section className={styles.checkoutWrapper}>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-6">
-                            <h4 className="check_heading">Checkout Shopping</h4>
+                            <h4 className={styles.check_heading}>Checkout Shopping</h4>
                             <hr />
-                            <div className="shipping_address">
+                            <div className={styles.shipping_address}>
                                 <form>
                                     <div className="mb-2">
                                         <label className="form-label">Your name</label>
@@ -36,7 +36,7 @@ export default function Checkout() {
                             <div className="order_review">
                                 <ul className="orderlist">
                                     <li className="orderItems">
-                                        <img src="/images/pc-1.jpg" alt="Order_image" className="order_img" />
+                                        <Image src="/images/pc-1.jpg" width={100} height={80} alt="Order_image" className="order_img" />
                                         <p className="product_name"> Amazon Basics Kids/Youth Gaming Recliner with Headrest and Back Pillow, 3+ Age Group, Black and White </p>
                                         <span className="qunty_price"> Qunty : (2 x 19.45)  </span>
                                         <p className="total_price_singleP"> $ 190</p>

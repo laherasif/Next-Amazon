@@ -1,8 +1,8 @@
-import styles  from '../../styles/product.module.css'
+import styles from '../../styles/product.module.css'
 import { BsFillCaretDownFill } from "react-icons/bs";
 import Image from 'next/image'
+import Link from 'next/link'
 export default function Products() {
-    console.log("product page ");
 
     return (
         <>
@@ -22,15 +22,15 @@ export default function Products() {
                                             <BsFillCaretDownFill />
 
                                             <div className="collapse" id="collapseExample">
-                                               <ul>
-                                                   <li>hellow</li>
-                                                   <li>hellow</li>
-                                                   <li>hellow</li>
-                                               </ul>
+                                                <ul>
+                                                    <li>hellow</li>
+                                                    <li>hellow</li>
+                                                    <li>hellow</li>
+                                                </ul>
                                             </div>
 
                                         </li>
-                                        <hr/>
+                                        <hr />
                                         {/* <li className="listItemss">
                                             Prime & Delivery
                                             <BsFillCaretDownFill/>
@@ -60,7 +60,9 @@ export default function Products() {
                                         <div className="row">
                                             <div className="col-md-3">
                                                 <div className={styles.product_data}>
-                                                    <Image src="/images/chair-1.jpg" width="200px" height="200px"   alt="product_img" />
+                                                    <Link href={`/single/${1}`} passHref>
+                                                        <Image src="/images/chair-1.jpg" width="200px" height="200px" alt="product_img" />
+                                                    </Link>
                                                     <p className={styles.feature_brand}>Feature from our brand</p>
                                                     <h3 className={styles.product_desc}>Amazon Basics Kids/Youth Gaming Recliner with Headrest and Back Pillow, 3+ Age Group, Black and White</h3>
 
@@ -71,7 +73,7 @@ export default function Products() {
                                             </div>
                                             <div className="col-md-3">
                                                 <div className={styles.product_data}>
-                                                    <Image src="/images/chair-1.jpg" width="200px" height="200px"   alt="product_img" />
+                                                    <Image src="/images/chair-1.jpg" width="200px" height="200px" alt="product_img" />
                                                     <p className={styles.feature_brand}>Feature from our brand</p>
                                                     <h3 className={styles.product_desc}>Amazon Basics Kids/Youth Gaming Recliner with Headrest and Back Pillow, 3+ Age Group, Black and White</h3>
 
@@ -82,7 +84,7 @@ export default function Products() {
                                             </div>
                                             <div className="col-md-3">
                                                 <div className={styles.product_data}>
-                                                    <Image src="/images/chair-1.jpg" width="200px" height="250px"   alt="product_img" />
+                                                    <Image src="/images/chair-1.jpg" width="200px" height="200px" alt="product_img" />
                                                     <p className={styles.feature_brand}>Feature from our brand</p>
                                                     <h3 className={styles.product_desc}>Amazon Basics Kids/Youth Gaming Recliner with Headrest and Back Pillow, 3+ Age Group, Black and White</h3>
 
@@ -93,7 +95,7 @@ export default function Products() {
                                             </div>
                                             <div className="col-md-3">
                                                 <div className={styles.product_data}>
-                                                    <Image src="/images/chair-1.jpg" width="200px" height="200px"   alt="product_img" />
+                                                    <Image src="/images/chair-1.jpg" width="200px" height="200px" alt="product_img" />
                                                     <p className={styles.feature_brand}>Feature from our brand</p>
                                                     <h3 className={styles.product_desc}>Amazon Basics Kids/Youth Gaming Recliner with Headrest and Back Pillow, 3+ Age Group, Black and White</h3>
 
