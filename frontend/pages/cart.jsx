@@ -1,5 +1,5 @@
 import styles from '../styles/cart.module.css'
-
+import Image from 'next/image'
 export default function Cart() {
     return (
         <>
@@ -15,8 +15,8 @@ export default function Cart() {
                                 </div>
                                 <div className={styles.product_details}>
                                     <div className={styles.cart_product}>
-                                        <img src="/images/paste-1.jpg" alt="cart_img" className="product_img_cart" />
-                                        <div className="detail">
+                                        <Image src="/images/paste-1.jpg" width={100} height={100} alt="cart_img" className="product_img_cart" />
+                                        <div className={styles.detail}>
                                             <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quidem modi, aliquam, saepe nulla ut dicta quos laboriosam odio sit eos commodi voluptatum ex delectus dignissimos? In ipsum voluptate corporis.</h4>
                                             <span>In Stock</span>
 
