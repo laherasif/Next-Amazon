@@ -22,15 +22,15 @@ export default function Catagory() {
                     <div className={styles.catagorys}>
                         <p className={styles.para}>Popular products in Apparel international</p>
                         <div className={styles.catagory_imgs}>
-                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
-                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
-                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
-                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
-                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
-                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
-                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
-                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
-                            <Image src="/images/baby-1.jpg" width="200px" height="200px"  objectFit="contain"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width={400} height={200}  objectFit="contain" className="babay_img"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width={400} height={200}  objectFit="contain" className="babay_img"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width={400} height={200}  objectFit="contain" className="babay_img"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width={400} height={200}  objectFit="contain" className="babay_img"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width={400} height={200}  objectFit="contain" className="babay_img"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width={400} height={200}  objectFit="contain" className="babay_img"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width={400} height={200}  objectFit="contain" className="babay_img"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width={400} height={200}  objectFit="contain" className="babay_img"  alt="babay" />
+                            <Image src="/images/baby-1.jpg" width={400} height={200}  objectFit="contain" className="babay_img"  alt="babay" />
                             
                         </div>
                     </div>
