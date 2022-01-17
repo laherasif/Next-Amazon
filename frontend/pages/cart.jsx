@@ -15,12 +15,12 @@ export default function Cart() {
                                 </div>
                                 <div className={styles.product_details}>
                                     <div className={styles.cart_product}>
-                                        <Image src="/images/paste-1.jpg" width={100} height={100} alt="cart_img" className="product_img_cart" />
+                                    <Image src="/images/paste-1.jpg" width={300} height={100} alt="cart_img" className="product_img_cart" />
                                         <div className={styles.detail}>
                                             <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quidem modi, aliquam, saepe nulla ut dicta quos laboriosam odio sit eos commodi voluptatum ex delectus dignissimos? In ipsum voluptate corporis.</h4>
                                             <span>In Stock</span>
 
-                                            <select className="select_quntity">
+                                            <select className={styles.select_quntity}>
                                                 <option> Qty: 1</option>
                                                 <option>1</option>
                                                 <option>1</option>
@@ -30,14 +30,14 @@ export default function Cart() {
 
                                         </div>
                                     </div>
-                                    <div className="cart_price">
+                                    <div className={styles.cart_price}>
                                         <h4>$ 14.90</h4>
                                     </div>
 
                                 </div>
                                 <hr />
-                                <div className="cart_bottom">
-                                    <h4 className="subtotal">Subtotal (1 item): <span className="total_price">$19.49</span></h4>
+                                <div className={styles.cart_bottom}>
+                                    <h4 className={styles.subtotal}>Subtotal (1 item): <span className={styles.total_price}>$19.49</span></h4>
                                 </div>
 
                             </div>
@@ -45,13 +45,13 @@ export default function Cart() {
 
                         </div>
                         <div className="col-lg-3">
-                            <div className="proceed_checkout">
-                                <h4 className="subtotal_right">Subtotal (1 item): <span className="total_price">$19.49</span></h4>
-                                <div className="gift">
+                            <div className={styles.proceed_checkout}>
+                                <h4 className={styles.subtotal_right}>Subtotal (1 item): <span className={styles.total_price}>$19.49</span></h4>
+                                <div className={styles.gift}>
                                     <input type="checkbox" />
-                                    <span className="contain_gift ">This order contain gift</span>
+                                    <span className={styles.contain_gift}>This order contain gift</span>
                                 </div>
-                                <button  className="prceed_btn">proceed to checkout</button>
+                                <button  className={styles.prceed_btn}>proceed to checkout</button>
                             </div>
                         </div>
                     </div>
