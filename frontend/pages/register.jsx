@@ -1,15 +1,15 @@
-import './signup.css'
+import styles from  '../styles/signup.module.css'
 
-export default function SignUp() {
+export default function Register() {
     return (
         <>
-            <div className="registerWrapper">
+            <div className={styles.registerWrapper}>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4 "></div>
                         <div className="col-md-4 mt-3">
-                            <div className="logo"></div>
-                            <div className="register_form">
+                            <div className={styles.logo}></div>
+                            <div className={styles.register_form}>
                                 <h2>Create account</h2>
                                 <form>
                                     <div className="mb-2">

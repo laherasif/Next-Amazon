@@ -1,4 +1,4 @@
-import styles from '../../../styles/smallHead.module.css'
+import styles from '../../styles/smallHead.module.css'
 import { BsList } from "react-icons/bs";
 export default function SmallHeader() {
     return (

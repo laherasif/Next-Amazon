@@ -1,6 +1,6 @@
-import Header from '../../layout/Header/Header';
-import SmallHeader from '../../layout/SmalHeader/SmallHeader';
-import Footer from '../../layout/Footer/Footer';
+import Header from '../../layout/Header';
+import SmallHeader from '../../layout/SmallHeader';
+import Footer from '../../layout/Footer';
 
 
 export default function Wrapper({ children }) {

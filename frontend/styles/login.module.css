@@ -5,7 +5,7 @@
 
 
 .logo{
-  background-image: url(../../images/login-logo.png);
+  background-image: url(../public/images/login-logo.png);
   background-position: -5px -130px;
   height: 31px;
   width: 103px;
@@ -18,7 +18,7 @@
     padding: 20px;
     margin-top: 10px;
 }
-.singIn_form h2{
+.signIn_head{
     font-size: 24px;
     font-weight: 400;
 }
@@ -47,6 +47,16 @@
     border: 1pt solid #f0c14b;
     border-radius: 4px;
 
+}
+
+.agree{
+    margin-top: 10px;
+    width: 100%
+
+}
+.agree_desc{
+    font-size: 13px;
+    font-weight: 500;
 }
 
 
@@ -90,15 +100,7 @@
     z-index: 1;
 }
 
-.agree{
-    margin-top: 10px;
-    width: 100%
 
-}
-.agree p{
-    font-size: 13px;
-    font-weight: 500;
-}
 
 .btn_create{
     background: #e7e9ec;

@@ -1,4 +1,4 @@
-import styles from '../../../styles/Header.module.css';
+import styles from '../../styles/Header.module.css';
 import { BsSearch, BsFillCaretDownFill } from "react-icons/bs";
 import { HiOutlineLocationMarker, } from "react-icons/hi";
 import { RiShoppingCartLine } from "react-icons/ri";
@@ -49,7 +49,7 @@ const Header = () => {
 
             <div className={styles.locationWarpper}>
               <div className={styles.texts}>
-                <Link href="/">
+                <Link href="/login" passHref>
                     <div className={styles.text}>Hello,Sign in</div>
                 </Link>
                     <div className="sign_desc" >Accounts & Lists <BsFillCaretDownFill /> </div>
