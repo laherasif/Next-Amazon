@@ -24,7 +24,7 @@ const Header = () => {
 
             </div>
 
-            <div className={styles.input_group}>
+            <div className={`${styles.input_group}input-group`}>
               <select className="input-group-text">
                 <option>All </option>
                 <option>All is well dont mind</option>
