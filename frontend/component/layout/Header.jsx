@@ -9,7 +9,6 @@ const Header = () => {
 
       <nav className={`${styles.navbar} navbar-expand-lg navbar-dark bg-dark`}>
         <div className="container-fluid">
-          <div className={styles.Header_Wrapper}>
             <div className={styles.logo_amazon}>
               {/* <img src="/images/newlogo.png" className="logo_img" alt="logo" /> */}
               <div className={styles.amazon}></div>
@@ -71,7 +70,6 @@ const Header = () => {
             </Link>
 
 
-          </div>
         </div>
       </nav>
 
